@@ -300,13 +300,16 @@
 					77B1ED181C6086E90084C65B = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = BBN4D9FE2X;
+						LastSwiftMigration = 0800;
 					};
 					77B1ED2C1C6086E90084C65B = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 77B1ED181C6086E90084C65B;
 					};
 					77B1ED371C6086EA0084C65B = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 77B1ED181C6086E90084C65B;
 					};
 				};
@@ -569,12 +572,14 @@
 				DEVELOPMENT_TEAM = BBN4D9FE2X;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "WebRTC iOS Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = procandi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WebRTC iOS Swift/WebRTC iOS Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -588,11 +593,13 @@
 				DEVELOPMENT_TEAM = BBN4D9FE2X;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "WebRTC iOS Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = procandi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WebRTC iOS Swift/WebRTC iOS Swift-Bridging-Header.h";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -604,6 +611,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.techguthi.WebRTC-iOS-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebRTC iOS Swift.app/WebRTC iOS Swift";
 			};
 			name = Debug;
@@ -616,6 +624,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.techguthi.WebRTC-iOS-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebRTC iOS Swift.app/WebRTC iOS Swift";
 			};
 			name = Release;
@@ -627,6 +636,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.techguthi.WebRTC-iOS-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "WebRTC iOS Swift";
 				USES_XCTRUNNER = YES;
 			};
@@ -639,6 +649,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.techguthi.WebRTC-iOS-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "WebRTC iOS Swift";
 				USES_XCTRUNNER = YES;
 			};

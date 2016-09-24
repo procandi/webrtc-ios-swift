@@ -15,7 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QCh-Cx-b3S" userLabel="Remote View" customClass="RTCEAGLVideoView">
@@ -75,7 +75,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bOO-pA-PCa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zfA-Km-Pbg">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Enter the room below to connect to WebRTC" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTj-Mg-2Xb">
@@ -105,6 +105,21 @@
                                     <action selector="connectButton:" destination="Elf-ct-PJB" eventType="touchUpInside" id="TPD-cV-ZM3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRa-Lk-gb1">
+                                <frame key="frameInset" minX="20" minY="234" width="211" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEv-o5-oRy">
+                                <frame key="frameInset" minX="249" minY="234" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnConnect:" destination="Elf-ct-PJB" eventType="touchUpInside" id="qoe-R6-xN1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -121,13 +136,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="WebRTC iOS Swift" id="KPv-bd-cLJ"/>
                     <connections>
+                        <outlet property="lblResult" destination="HRa-Lk-gb1" id="TKy-JH-93S"/>
                         <outlet property="roomName" destination="3XU-WD-Bhy" id="8Ge-Nc-Ii2"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="connectToRoom" id="j2D-3x-Ie4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uvz-M6-6FP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1715" y="490"/>
+            <point key="canvasLocation" x="1714.4927536231885" y="489.94565217391306"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QiQ-jj-IxW">
