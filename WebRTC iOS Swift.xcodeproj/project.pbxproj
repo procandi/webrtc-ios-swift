@@ -299,7 +299,7 @@
 				TargetAttributes = {
 					77B1ED181C6086E90084C65B = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 28RSYVTV6E;
+						DevelopmentTeam = BBN4D9FE2X;
 					};
 					77B1ED2C1C6086E90084C65B = {
 						CreatedOnToolsVersion = 7.2;
@@ -566,13 +566,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = BBN4D9FE2X;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "WebRTC iOS Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.techguthi.test;
+				PRODUCT_BUNDLE_IDENTIFIER = procandi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WebRTC iOS Swift/WebRTC iOS Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -583,12 +585,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = BBN4D9FE2X;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "WebRTC iOS Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.techguthi.test;
+				PRODUCT_BUNDLE_IDENTIFIER = procandi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WebRTC iOS Swift/WebRTC iOS Swift-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

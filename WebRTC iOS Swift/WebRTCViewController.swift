@@ -103,7 +103,7 @@ class WebRTCViewController: UIViewController, ARDAppClientDelegate, RTCEAGLVideo
     }
     
     func connectToChatRoom(){
-        client?.serverHostUrl = "https://apprtc.appspot.com"
+        client?.serverHostUrl = "http://192.168.0.100:3000"
         client?.connectToRoomWithId(roomName, options: nil)
     }
     
